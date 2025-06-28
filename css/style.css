@@ -1,0 +1,14 @@
+:root {
+    --color-text: #121712;
+    --color-text2: #638763;
+    --font-all: "Plus Jakarta Sans", sans-serif;
+}
+
+.contenido-central {
+    display: flex;
+    padding: 20px 160px;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    height: 1573px;
+}
