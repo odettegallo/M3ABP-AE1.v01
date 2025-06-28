@@ -1,8 +1,9 @@
 .navbar {
     display: flex;
+    /* padding: 12px 40px; */
     padding: 12px 40px;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     align-self: stretch;
     border-bottom: 1px solid #E5E8EB;
 
@@ -36,22 +37,26 @@
     padding-left: 0;
     list-style: none;
 /* justify-content: right; */
-align-items: flex-end;
-flex: 1 0 0;
+    align-items: flex-end;
+/* flex: 1 0 0; */
 /* align-self: flex-end; */
 
 }
 
 .menu ul {
     align-items: right;
+    margin-right: 0;
+    
 }
 
 .menu li {
     list-style: none;
     margin: 0;
-    padding: 12px 40px;    
-
-}
+    display: flex;
+    height: 40px;
+    align-items: center;
+    gap: 36px;
+    }
 
 .menu a {
     color: inherit;
