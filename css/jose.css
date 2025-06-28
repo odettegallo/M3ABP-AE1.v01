@@ -1,0 +1,64 @@
+.hero {
+  position: relative;
+  height: 480px;
+  border-radius: 8px;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("../assets/img/hero-image.png") lightgray 50% / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  margin: 20px 0 16px 0;
+}
+
+.hero-content {
+  max-width: 700px;
+  padding: 0px 16px;
+}
+
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -2px;
+  margin: 0 0 1rem 0;
+}
+
+.hero-subtitle {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 1.5rem 0;
+}
+
+.btn-shop {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "dlig" on;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  background-color: #14b814;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+}
