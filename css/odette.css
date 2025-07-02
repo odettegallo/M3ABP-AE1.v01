@@ -89,6 +89,30 @@
 
 }
 
+/* navbar semi-responsiva */
+
+@media (max-width: 768px) {
+    nav ul {
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
+nav ul {
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 5px auto;
+   
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
 #whatsapp-button {
     position: fixed;
     bottom: 20px;
