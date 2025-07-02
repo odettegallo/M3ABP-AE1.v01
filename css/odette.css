@@ -89,12 +89,20 @@
 
 }
 
-/* navbar semi-responsiva */
+/* navbar y footer semi-responsive */
 
 @media (max-width: 768px) {
     nav ul {
     flex-direction: column;
     align-items: center;
+    }
+    footer {
+    padding: 2px 3vw;
+    font-size: 1em;
+    }
+    .footer-columns {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
